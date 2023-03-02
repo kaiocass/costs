@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom";
-import ProjectForm from "../../project/ProjectForm/ProjectForm";
+import ProjectForm from "../project/ProjectForm";
 import styles from "./NewProject.module.css";
 
 function NewProject() {
@@ -22,7 +22,6 @@ function NewProject() {
       .then((data) => {
         history.push('/projects', { message: 'Create project successfully' })
       })
-      .then()
       .catch((err) => console.log(err));
   }
 

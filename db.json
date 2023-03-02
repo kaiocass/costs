@@ -1,15 +1,33 @@
 {
   "projects": [
     {
-      "name": "Project Test 01",
-      "budget": "871",
+      "name": "TO DO",
+      "budget": "500",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Page Web",
+      "budget": "7000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 100,
+      "services": [
+        {
+          "name": "Add Member",
+          "cost": "100",
+          "description": "CRUD",
+          "id": "85781013-30e5-4a1a-a585-0dc91e70eb73"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [

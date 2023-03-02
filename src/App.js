@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Company from "./components/pages/Company/Company";
-import Contact from "./components/pages/Contact/Contact";
-import Container from "./components/layout/Container/Container";
-import Footer from "./components/layout/Footer/Footer";
-import Home from "./components/pages/Home/Home";
-import Navbar from "./components/layout/Navbar/Navbar";
-import NewProject from "./components/pages/NewProject/NewProject";
-import Projects from "./components/pages/Projects/Projects";
+import Company from "./components/pages/Company";
+import Contact from "./components/pages/Contact";
+import Footer from "./components/layout/Footer";
+import Home from "./components/pages/Home";
+import Navbar from "./components/layout/Navbar";
+import NewProject from "./components/pages/NewProject";
+import Projects from "./components/pages/Projects";
+import Project from "./components/pages/Project";
+import Container from "./components/layout/Container";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/newproject">
             <NewProject />
+          </Route>
+          <Route exact path="/project/:id">
+            <Project />
           </Route>
         </Container>
       </Switch>

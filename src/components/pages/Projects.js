@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import Container from "../../layout/Container/Container";
-import LinkButton from "../../layout/LinkButton/LinkButton";
-import Loading from "../../layout/Loading/Loading";
-import Message from "../../layout/Message/Message";
-import ProjectCard from "../../project/ProjectCard/ProjectCard";
+import Container from "../layout/Container";
+import LinkButton from "../layout/LinkButton";
+import Loading from "../layout/Loading";
+import Message from "../layout/Message";
+import ProjectCard from "../project/ProjectCard";
 
 import styles from "./Projects.module.css";
 
